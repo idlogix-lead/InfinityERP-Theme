@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InfinityTheme
+Bundle-SymbolicName: InfinityTheme
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: org.adempiere.ui.zk;bundle-version="11.0.0"
+Automatic-Module-Name: InfinityTheme
+Bundle-ClassPath: src/,
+ .
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Jetty-WarPrependFragmentResourcePath: /
