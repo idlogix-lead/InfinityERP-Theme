@@ -22,6 +22,15 @@
     background-color:none;
 
 }
+
+.new-btn{
+background:transparent;
+box-shadow:none;
+}
+.new-btn:hover{
+border:1px solid white;
+}
+
 .z-button.btn-small {
 	padding: 1px 5px;
 }
@@ -70,7 +79,7 @@
 	font-size: 12px;
 }
 .btn-ok, .btn-ok:focus {
-	background-color: #daf0e1;
+	background-color: #62cb84;
 }
 .btn-cancel, .btn-cancel:focus {
 	background-color: #df5b5b;

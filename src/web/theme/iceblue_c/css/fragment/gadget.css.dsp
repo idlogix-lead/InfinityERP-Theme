@@ -18,6 +18,7 @@
 .z-caption .z-caption-content {
 	padding: 0 0 0 8px;
 	cursor: move;
+	font-weight: 700;
 }
 .z-panel-icon {
 	font-size: 12px !important;

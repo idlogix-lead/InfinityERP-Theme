@@ -111,9 +111,8 @@
 .z-east-icon, .z-west-icon, .z-north-icon, .z-south-icon {
     font-size: 14px;
 }
-
 .z-east-splitter, .z-west-splitter, .z-north-splitter, .z-south-splitter {
-	background-color: #f3f3f3;
+	background-color: #91c8ef;
 }
 
 .z-south-icon, .z-north-icon, .z-north-icon.z-icon-ellipsis-h, .z-south-icon.z-icon-ellipsis-h {

@@ -97,7 +97,7 @@
 	color :#333;
 }
 .font-icon-toolbar-button.toolbar-button:hover {
-	color: #fff;
+	color: #000;
 }
 .font-icon-toolbar-button .z-toolbarbutton-content {
 	color: inherit;
@@ -120,4 +120,10 @@
     display: none;
     width: 0px;
   }
+}
+.z-toolbarbutton:hover {
+    color: #000;
+    border-color: transparent;
+    outline:none;
+    background: #e0f2ff;
 }

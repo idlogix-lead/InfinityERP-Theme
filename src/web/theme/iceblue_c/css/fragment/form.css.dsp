@@ -9,6 +9,7 @@
 
 .form-button {
 	width: 99%;
+background: #60c3ff;
 }
 .form-button img {
 	width: 16px;

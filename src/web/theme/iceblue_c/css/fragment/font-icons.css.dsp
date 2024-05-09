@@ -106,14 +106,16 @@
 .z-icon-GetMail:before {
 	content: "\f0e0";
 }
-.z-icon-Help:before {
-	content: "\f059";
-}
 .z-icon-History:before {
 	content: "\f1da";
 }
 .z-icon-Home:before {
 	content: "\f015";
+	color:#5F45A9;
+}
+.z-icon-Help:before {
+	content: "\f059";
+	color: rgba(1, 73, 237, 1);
 }
 .z-icon-Ignore:before {
 	content: "\f0e2";
@@ -364,4 +366,8 @@
 }
 .z-icon-ZoomAcross:before {	
 	content: "\f00e";
+}
+.z-icon-sitemap:before {
+    content: "\f0e8";
+    color:white;
 }

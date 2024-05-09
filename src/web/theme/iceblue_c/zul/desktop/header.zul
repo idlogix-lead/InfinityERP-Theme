@@ -5,7 +5,7 @@
 			<hbox  height="100%" pack="start" align="center" sclass="desktop-header-left" hflex="1">
 					<image id="logo"/>
 					<div id="menuLookup"/>
-					<button id="menuButton" sclass="btn-small"/>
+					<button id="menuButton" sclass="btn-small new-btn" style="background:transparent;"/>
 			</hbox>
 			<vbox  align="end">
 				<vbox  hflex="min" apply="org.adempiere.webui.panel.UserPanel" align="end" sclass="desktop-user-panel">
