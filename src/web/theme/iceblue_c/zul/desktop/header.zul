@@ -9,31 +9,21 @@
 			</hbox>
 			<vbox  align="end">
 				<vbox  hflex="min" apply="org.adempiere.webui.panel.UserPanel" align="end" sclass="desktop-user-panel">
-					<hbox align="center" id="userPanelLinksContainer" hflex="min">
-						<image sclass="desktop-icon" id="userMenu"  src="/zkau/web/f8c3814d/theme/iceblue_c/images/avatar.png"  height="26px"> </image>
 						<label use="org.adempiere.webui.component.Label" id="loginUserAndRole" style="cursor: pointer;" sclass="desktop-header-font desktop-header-username"/>
-						<separator orient="vertical" bar="true" height="13px"/>
-	
-						<toolbarbutton use="org.adempiere.webui.component.ToolBarButton" sclass="desktop-header-font link " id="feedback" image="/zkau/web/f8c3814d/theme/iceblue_c/images/feedback.png"  height="26px"/> 
-
-						<separator orient="vertical" bar="true" height="13px"/>
-
-						<toolbarbutton use="org.adempiere.webui.component.ToolBarButton" sclass="desktop-header-font link " id="preference"  image="/zkau/web/f8c3814d/theme/iceblue_c/images/Gear.png"  height="26px"  />
-						<separator orient="vertical" bar="true" height="13px"/>
-						<toolbarbutton use="org.adempiere.webui.component.ToolBarButton" sclass="desktop-header-font link" id="changeRole1"/>
+					<hbox align="center" id="userPanelLinksContainer" hflex="min">
 						
+	
+						<toolbarbutton use="org.adempiere.webui.component.ToolBarButton" sclass="desktop-header-font link " id="feedback"  /> 
+
+						<separator orient="vertical" bar="true" height="13px"/>
+
+						<toolbarbutton use="org.adempiere.webui.component.ToolBarButton" sclass="desktop-header-font link " id="preference"/>
+						<separator orient="vertical" bar="true" height="13px"/>
+						<toolbarbutton use="org.adempiere.webui.component.ToolBarButton" sclass="desktop-header-font link" id="changeRole"/>
+						<separator orient="vertical" bar="true" height="13px"/>
+						<toolbarbutton use="org.adempiere.webui.component.ToolBarButton" sclass="desktop-header-font link" id="logout"/>
 							
-						<menubar  style="background:transparent;">
-							<menu style="background:transparent;" image="/zkau/web/f8c3814d/theme/iceblue_c/images/UserAvatar.png">
-								<menupopup>
-									<menuitem style="background:transparent;" image="/zkau/web/f8c3814d/theme/iceblue_c/images/setting.png" sclass="desktop-header-font link" id="loginUserAndRole1" label="user"/>
-									<menuitem style="background:transparent;" image="/zkau/web/f8c3814d/theme/iceblue_c/images/setting.png" sclass="desktop-header-font link" id="changeRole" label="Change Role"/>
-									<menuseparator />
-									<menuitem style="background:transparent;" image="/zkau/web/f8c3814d/theme/iceblue_c/images/power-off.png" label="Logout" sclass="desktop-header-font link" id="logout"/>
-								
-								</menupopup>
-							</menu>
-						</menubar>
+						
 					</hbox>
 				</vbox>
 			</vbox>

@@ -9,7 +9,7 @@
 	<east sclass="login-east-panel">
 		<include src="~./theme/iceblue_c/zul/login/login-right.zul"/>
 	</east>
-	<west sclass="login-west-panel">
+	<west sclass="login-west-panel" collapsible="true" open="false">
 		<include src="~./theme/iceblue_c/zul/login/login-left.zul"/>
 	</west>
 	<north sclass="login-north-panel">
