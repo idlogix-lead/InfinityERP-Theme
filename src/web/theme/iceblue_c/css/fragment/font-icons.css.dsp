@@ -26,6 +26,18 @@
 	content: "\f017";
 	font-weight: bold;
 }
+
+
+
+.z-icon-caret-down{
+color:black;
+}
+.z-icon-caret-down:active{
+color:#244899}
+
+.z-icon-caret-down:after{
+color:#244899}
+
 .z-icon-Chat:before {
 	content: "\f0e6";
 }
