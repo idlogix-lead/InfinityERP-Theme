@@ -112,7 +112,7 @@
     font-size: 14px;
 }
 .z-east-splitter, .z-west-splitter, .z-north-splitter, .z-south-splitter {
-	background-color: #91c8ef;
+	background-color: transparent;
 }
 
 .z-south-icon, .z-north-icon, .z-north-icon.z-icon-ellipsis-h, .z-south-icon.z-icon-ellipsis-h {
@@ -123,4 +123,19 @@
 .z-west-icon.z-icon-ellipsis-v, .z-east-icon.z-icon-ellipsis-v {
   left: -3px;
   visibility: visible;
+}
+
+
+.z-listitem.z-listitem-selected>.z-listcell {
+  background: #f9ffc8;
+}
+
+
+.z-tab-selected .z-tab-text{
+    
+    color: #244899;
+    font-weight: 700;
+}
+.confirm-panel {
+background:white;
 }

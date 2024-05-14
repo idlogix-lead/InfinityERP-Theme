@@ -29,6 +29,9 @@
 	background-size: 16px 16px;  
 	cursor: pointer;
 }
+.z-listbox-header{
+background:transparent;
+}
 .z-grid tbody tr.highlight td.row-indicator {
 	background-color: transparent !important;
 	background-image: none !important; 
@@ -81,9 +84,18 @@ background:#f3f3f3;
 border-bottom:1px solid #c7c7c7
 }
 
+.z-column .z-column-sort .z-column:hover{
+color:#6f6f6f;
+}
 
+.z-column-content:hover .z-column-sorticon:hover{
+color:#6f6f6f;
+}
 .z-column-content, .z-listheader-content, .z-listcell-content {
 	padding: 2px 3px 1px;
+background:#f3f3f3;
+color: #6f6f6f;
+    font-weight: 500;
 }
 
 .z-listheader-sort .z-listheader-content{
@@ -117,6 +129,21 @@ background:#f3f3f3;
 }
 
 <%-- z-listbox customization --%>
+.z-listheader{
+background:#f3f3f3;
+}
+
+.z-column-sort .z-column-content:hover{
+color:#6f6f6f;
+}
+.z-column-sort .z-column-content{
+color:#6f6f6f;
+}
+.z-listhead-bar{
+background:#f3f3f3;
+border:none;
+}
+
 tbody.z-listbox-empty-body td {
 	text-align: left;
 }

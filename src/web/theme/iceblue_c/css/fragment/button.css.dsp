@@ -84,16 +84,19 @@ border:1px solid white;
 .btn-cancel, .btn-cancel:focus {
 	background-color: #df5b5b;
 }
-.btn-reset , .btn-reset:focus {
-background-color:#f1f100;
+.btn-reset, .btn-reset:focus {
+    background-color: #df731bc9;
+}
+.btn-history, .btn-history:focus {
+    background-color: #52cbf1;
 }
 
 .btn-new , .btn-new:focus {
-background-color:#90ebad;
+background-color:#90ceeb;
 }
 
 .btn-export , .btn-export:focus {
-background-color:#daf0e1;
+background-color:#90ebad;
 }
 
 .btn-ok.z-button [class^="z-icon-"]:before {
