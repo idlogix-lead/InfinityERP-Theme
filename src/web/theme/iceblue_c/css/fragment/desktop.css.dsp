@@ -12,12 +12,11 @@
 }
 
 .desktop-header {
-    background-color: #f6f8ff;
-    width: 100%;
-    height: 46px;
-   
-    border-bottom: 1px solid #e9e9e9 !important;
-    padding-left: 4px;
+	background-color: #f6f8ff;
+	width: 100%;
+	height: 46px;
+	border-bottom: 1px solid #e9e9e9 !important;
+	padding-left: 4px;
 }
 .desktop-header.mobile {
 	height: 36px;
@@ -167,13 +166,13 @@ padding:0px;
 	width: 200px;
 	border: none;
 	border-right: 1px solid #C5C5C5;
-	background-color: Transparent;
+	background-color: #f6f8ff;
 	padding-top: 2px; 
 }
 .desktop-left-column + .z-west-splitter,  .desktop-left-column.z-west {
 	border-top: none; 
 	border-right: 1px solid transparent;
-	background-color:transparent;
+	
 	
 }
 
@@ -187,13 +186,16 @@ padding:0px;
 	width: 200px;
 	border: none;
 	border-left: 1px solid #C5C5C5;
-	background-color: #e0f2ff;
+	background-color: #fff;
 	padding-top: 2px; 
 }
 .desktop-right-column + .z-east-splitter,  .desktop-right-column.z-east {
 	border-top: none; 
 	border-left: 1px solid transparent;
 }
+ 
+
+
 .desktop-right-column .z-east-body {
 	border-left: none;
 }
