@@ -205,3 +205,10 @@ border:1px solid #c7c7c7;
 border-radius:8px;
 }
 
+.z-treerow.z-treerow-selected.z-treerow-focus>.z-treecell {
+    background: #abd6f5;
+}
+.z-treerow.z-treerow-selected>.z-treecell {
+    background: #abd6f5;
+}
+

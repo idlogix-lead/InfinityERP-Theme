@@ -12,11 +12,12 @@
 }
 
 .desktop-header {
-	background-color: #244899;
-	width: 100%;
-	height: 46px;
-	border-bottom: 1px solid #ADDDFF !important;
-	padding-left: 4px;
+    background-color: #f6f8ff;
+    width: 100%;
+    height: 46px;
+   
+    border-bottom: 1px solid #e9e9e9 !important;
+    padding-left: 4px;
 }
 .desktop-header.mobile {
 	height: 36px;
@@ -56,14 +57,14 @@ padding:0px;
 	font-weight: 600;
 }
 .desktop-user-panel .z-toolbarbutton:hover {
-	background: #0093F9;
+	background: #f3f3f3;
 	color: rgba(0,0,0,0.9);
 }
 .desktop-header-username {
 	padding: 0px 4px;
 }
 .desktop-header-username:hover {
-	background: #0093F9;
+	background: #f3f3f3;
 	color: rgba(0,0,0,0.9);
 }
 
@@ -258,7 +259,7 @@ padding:0px;
 }
 
 .desktop-header-font{
-	color: white !important;
+	color: #070067 !important;
 }
 
 .desktop-header-font svg{

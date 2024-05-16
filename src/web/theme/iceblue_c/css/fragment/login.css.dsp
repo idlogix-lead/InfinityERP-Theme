@@ -78,6 +78,10 @@
 
 .login-btn {
 	padding: 4px 20px !important;
+	 background: #f3f3f3;
+    color: black;
+        margin: 5px
+    
 }
 
 .login-east-panel, .login-west-panel {
