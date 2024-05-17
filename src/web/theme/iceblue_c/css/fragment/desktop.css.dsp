@@ -186,7 +186,7 @@ padding:0px;
 	width: 200px;
 	border: none;
 	border-left: 1px solid #C5C5C5;
-	background-color: #fff;
+	background-color: # #f6f8ff;
 	padding-top: 2px; 
 }
 .desktop-right-column + .z-east-splitter,  .desktop-right-column.z-east {
