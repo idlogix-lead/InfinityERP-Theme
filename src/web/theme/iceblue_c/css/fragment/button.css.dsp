@@ -28,9 +28,8 @@ background:transparent;
 box-shadow:none;
 }
 .new-btn:hover{
-border:1px solid white;
+border:1px solid #001250;
 }
-
 .z-button.btn-small {
 	padding: 1px 5px;
 }
@@ -90,6 +89,7 @@ border:1px solid white;
 .btn-history, .btn-history:focus {
     background-color: #52cbf1;
 }
+
 
 .btn-new , .btn-new:focus {
 background-color:#90ceeb;

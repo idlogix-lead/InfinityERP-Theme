@@ -50,7 +50,7 @@ div.z-column-cnt, div.z-grid-header div.z-auxheader-cnt {
 }
 
 .z-grid-header{
-background:#f3f3f3;
+background:#f6f8ff;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     height: 40px;
@@ -87,15 +87,15 @@ background:transparent;
 
 .z-column-content, .z-listheader-content {
 	padding: 2px 3px 1px;
-	background:#f3f3f3;
+	background:#f6f8ff;
 	color: #6f6f6f;
     font-weight: 500;
 }
 .z-listheader{
-background:#f3f3f3;
+background:#f6f8ff;
 }
 .z-listhead-bar{
-background:#f3f3f3;
+background:#f6f8ff;
 border:none;
 }
 
@@ -106,17 +106,17 @@ color:#244899;
 color:#6f6f6f;
 }
  .z-column-sort .z-column-content:active {
-    background: #f3f3f3;
+    background: #f6f8ff;
     color: #244899;
 }
  .z-column-sort .z-column-content:after {
-    background: #f3f3f3;
+    background: #f6f8ff;
     color: #244899;
 }
 
 
 .z-listheader-sort .z-listheader-content{
-background:#f3f3f3;
+background:#f6f8ff;
 	border-left:none;
 	color:#6f6f6f;
 	font-weight:500;
@@ -183,7 +183,7 @@ div.grid-view-color-fieldtype-display > div {
 }
 
 th > .z-column-content,th.z-column {
-	background:#f3f3f3;
+	background:#f6f8ff;
 	border-left:none;
 	color:#6f6f6f;
 	font-weight:500;
@@ -205,10 +205,10 @@ border:1px solid #c7c7c7;
 border-radius:8px;
 }
 
+
 .z-treerow.z-treerow-selected.z-treerow-focus>.z-treecell {
     background: #abd6f5;
 }
 .z-treerow.z-treerow-selected>.z-treecell {
     background: #abd6f5;
 }
-

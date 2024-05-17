@@ -21,23 +21,12 @@
 }
 .z-icon-Cancel:before {
 	content: "\f00d";
+	color:red;
 }
 .z-icon-ChangeLog:before {
 	content: "\f017";
 	font-weight: bold;
 }
-
-
-
-.z-icon-caret-down{
-color:black;
-}
-.z-icon-caret-down:active{
-color:#244899}
-
-.z-icon-caret-down:after{
-color:#244899}
-
 .z-icon-Chat:before {
 	content: "\f0e6";
 }
@@ -56,6 +45,7 @@ color:#244899}
 .z-icon-Delete:before {
 	font-weight: bold;
 	content: "\f068";
+	color:red;
 }
 .z-icon-DeSelectAll:before {
 	content: "\f248";
@@ -87,6 +77,10 @@ color:#244899}
 .z-icon-Expanding:before {
 	content: "\f103";
 }
+
+.z-button [class^="z-icon-"][disabled] z-icon-Export:before{
+color:#f3f3f3;
+}
 .z-icon-Export:before {	
 	content: "\f0ed";
 	color:#16794c;
@@ -112,11 +106,23 @@ color:#244899}
 .z-icon-Folder:before {
 	content: "\f07c";
 }
+.z-icon-caret-down{
+color:black;
+}
+.z-icon-caret-down:active{
+color:#244899}
+
+.z-icon-caret-down:after{
+color:#244899}
 .z-icon-Form:before {
 	content: "\f00b";
 }
 .z-icon-GetMail:before {
 	content: "\f0e0";
+}
+.z-icon-Help:before {
+	content: "\f059";
+	color: rgba(1, 73, 237, 1);
 }
 .z-icon-History:before {
 	content: "\f1da";
@@ -124,10 +130,6 @@ color:#244899}
 .z-icon-Home:before {
 	content: "\f015";
 	color:#5F45A9;
-}
-.z-icon-Help:before {
-	content: "\f059";
-	color: rgba(1, 73, 237, 1);
 }
 .z-icon-Ignore:before {
 	content: "\f0e2";
@@ -381,5 +383,5 @@ color:#244899}
 }
 .z-icon-sitemap:before {
     content: "\f0e8";
-    color:white;
+    color:#001250;
 }
