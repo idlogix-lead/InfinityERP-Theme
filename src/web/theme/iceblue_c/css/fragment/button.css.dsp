@@ -90,6 +90,21 @@ border:1px solid #001250;
     background-color: #52cbf1;
 }
 
+.btn-delete, .btn-delete:focus {
+	background-color: #f59a9a;
+}
+
+.btn-ignore, .btn-ignore:focus {
+    background-color: #df731bc9;
+}
+ 
+
+
+.z-button[class^="z-icon-"][disabled]  .btn-save,
+.z-button[class^="z-icon-"][disabled]   .btn-delete,
+.z-button[class^="z-icon-"][disabled]   .btn-unsort {
+    background: #f3f3f3;
+}
 
 .btn-new , .btn-new:focus {
 background-color:#90ceeb;
@@ -97,6 +112,15 @@ background-color:#90ceeb;
 
 .btn-export , .btn-export:focus {
 background-color:#90ebad;
+}
+
+.btn-unsort, .btn-unsort:focus {
+    background-color: #52cbf1;
+}
+
+
+.btn-save, .btn-save:focus {
+background-color:#62cb84;
 }
 
 .btn-ok.z-button [class^="z-icon-"]:before {

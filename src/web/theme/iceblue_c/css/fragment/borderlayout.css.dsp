@@ -156,17 +156,16 @@ background: #f9ffc8;
     max-width: 1386px;
 }
 
+@media screen and (max-width: 1388px) {
+.z-frozen-inner {
+    width: 1387px !important;
+    max-width: 1387px;
+}
+}
 @media screen and (max-width: 1179px) {
 .z-frozen-inner {
     width: 1199px !important;
     max-width: 1199px;
-}
-}
-
-@media screen and (max-width: 1344px) {
-.z-frozen-inner {
-    width: 1387px !important;
-    max-width: 1387px;
 }
 }
 
@@ -182,8 +181,8 @@ background: #f9ffc8;
     max-width: 1px;
 }
 
-.confirm-panel .z-div{
-background:white;
+.confirm-panel {
+background:white !important;
 }
 
 
