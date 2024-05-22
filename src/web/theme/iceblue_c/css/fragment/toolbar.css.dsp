@@ -87,6 +87,9 @@
 .z-toolbarbutton[disabled], .z-toolbarbutton[disabled]:hover {
 	background-color: transparent;
 }
+.z-toolbarbutton[disabled], .z-toolbarbutton[disabled]:hover {
+	background-color: transparent;
+}
 
 <%-- toolbar button with font icon --%>
 .font-icon-toolbar-button.toolbar-button [class^="z-icon-"] {
@@ -121,9 +124,19 @@
     width: 0px;
   }
 }
+
 .z-toolbarbutton:hover {
-    color: #000;
+    color: #000 ;
     border-color: transparent;
     outline:none;
-    background: #e0f2ff;
+    background: #7ac8ff;
+}
+.z-toolbarbutton:active {
+    color: #FFFFFF !important;
+    border-color: transparent;
+    background-color: #7ac8ff !important;
+}
+
+.z-toolbarbutton:focus {
+    color: #FFFFFF;    background-color: #7ac8ff !important;
 }
